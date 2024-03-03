@@ -4,6 +4,8 @@ package registrationloginsystem.service.impl;
 
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 
@@ -41,6 +43,26 @@ public class UserServiceImpl implements UserService{
             
     
     }
+        @Override
+        public User findUserByEmail(String email) {
+           return userRepository.findByEmail(email);
+        }
+        @Override
+        public List<UserDto> findAllUsers() {
+            List<User> users = userRepository.findAll();
+            return users.stream()
+                    .map((user) -> mapToUserDto(user))
+                    .collect(Collectors.toList());
+        }
+    
+        private UserDto mapToUserDto(User user){
+            UserDto userDto = new UserDto();
+            String[] str = user.getName().split(" ");
+            userDto.setFirstName(str[0]);
+            userDto.setLastName(str[1]);
+            userDto.setEmail(user.getEmail());
+            return userDto;
+        }
     
 
 }
