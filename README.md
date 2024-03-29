@@ -2,9 +2,6 @@
 
 Este é um sistema simples de registro e login desenvolvido com Spring Boot e MySQL.
 
-## Começando
-
-Estas instruções fornecerão uma cópia do projeto em funcionamento em sua máquina local para fins de desenvolvimento e teste.
 
 ### Pré-requisitos
 
