@@ -34,12 +34,17 @@ mvn spring-boot:run
 ```
 O aplicativo estará acessível em http://localhost:8080.
 
-I
+
 Construído com
+
 Spring Boot
+
 Thymeleaf
+
 Spring Security
+
 Maven 
+
 MySQL 
 
 Licença
