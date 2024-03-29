@@ -10,7 +10,7 @@ Estas instruções fornecerão uma cópia do projeto em funcionamento em sua má
 
 Você precisa ter o seguinte instalado em sua máquina:
 
--Java 11
+- Java 11
 - Maven
 - MySQL
 
