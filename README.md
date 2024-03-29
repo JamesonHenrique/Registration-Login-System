@@ -19,12 +19,19 @@ Você precisa ter o seguinte instalado em sua máquina:
 1. Clone o repositório
 ```bash
 clone do git https://github.com/JamesonHenrique/Registration-Login-System.git
+```
 Navegue até o diretório do projeto
+```bash
 cd Registration-Login-System
+```
 Construa o projeto
+```bash
 mvn clean install
+```
 Execute o aplicativo
+```bash
 mvn spring-boot:run
+```
 O aplicativo estará acessível em http://localhost:8080.
 
 I
