@@ -1,5 +1,5 @@
 
-```markdown
+
 # 🚀 Sistema de Registro e Login
 
 Este projeto é um sistema de registro e login desenvolvido usando Spring Boot e MySQL. Ele permite que os usuários se registrem, façam login e visualizem uma lista de todos os usuários registrados.
@@ -11,7 +11,7 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 - Java 11
 - Maven
 - MySQL
-
+```markdown
 ## 🛠️ Instalação
 
 Siga estas etapas para obter o projeto em execução em sua máquina local:
