@@ -1,49 +1,48 @@
-# Sistema de registro e login
 
-Este é um sistema simples de registro e login desenvolvido com Spring Boot e MySQL.
+```markdown
+# 🚀 Sistema de Registro e Login
 
+Este projeto é um sistema de registro e login desenvolvido usando Spring Boot e MySQL. Ele permite que os usuários se registrem, façam login e visualizem uma lista de todos os usuários registrados.
 
-### Pré-requisitos
+## 📋 Pré-requisitos
 
-Você precisa ter o seguinte instalado em sua máquina:
+Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 
 - Java 11
 - Maven
 - MySQL
 
-### Instalação
+## 🛠️ Instalação
+
+Siga estas etapas para obter o projeto em execução em sua máquina local:
 
 1. Clone o repositório
 ```bash
-clone do git https://github.com/JamesonHenrique/Registration-Login-System.git
+git clone https://github.com/JamesonHenrique/Registration-Login-System.git
 ```
-Navegue até o diretório do projeto
+2. Navegue até o diretório do projeto
 ```bash
 cd Registration-Login-System
 ```
-Construa o projeto
+3. Construa o projeto
 ```bash
 mvn clean install
 ```
-Execute o aplicativo
+4. Execute o aplicativo
 ```bash
 mvn spring-boot:run
 ```
-O aplicativo estará acessível em http://localhost:8080.
+O aplicativo agora deve estar acessível em http://localhost:8080.
 
+## 🛠️ Tecnologias Utilizadas
 
-Construído com
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [Thymeleaf](https://www.thymeleaf.org/)
+- [Spring Security](https://spring.io/projects/spring-security)
+- [Maven](https://maven.apache.org/)
+- [MySQL](https://www.mysql.com/)
 
-Spring Boot
+## 📄 Licença
 
-Thymeleaf
-
-Spring Security
-
-Maven 
-
-MySQL 
-
-Licença
-Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE.md para obter detalhes
-
+Este projeto está licenciado sob a licença MIT - consulte o arquivo `LICENSE` para obter detalhes.
+```
